@@ -25,3 +25,7 @@ Console.WriteLine($"{teststr.LastIndexOf("the")}");
 string str1 = null;
 string str2 = "   ";
 string str3 = String.Empty;
+Console.WriteLine($"{String.IsNullOrEmpty(str1)}");
+Console.WriteLine($"{String.IsNullOrEmpty(str3)}");
+Console.WriteLine($"{String.IsNullOrWhiteSpace(str2)}");
+
